@@ -1,0 +1,215 @@
+section{
+    overflow-x: hidden; 
+    padding: 20px;
+}
+header img{
+    width: 150px;
+}
+header input{
+    width: 100%;
+    border-color:whitesmoke ;
+    border-radius: 50px;
+    box-shadow: 50px whitesmoke;
+    height: 50px;
+    outline: none;
+    padding-left: 40px;
+}
+header .bi-search{
+    position: absolute;
+    left:30px;
+    top: 15px;
+}
+
+.bi-camera{
+    position: absolute;
+    right: 60px;
+    top: 15px;
+}
+.bi-mic{
+    position: absolute;
+    right: 80px;
+    top: 15px;
+}
+.bi-search{
+    position: absolute;
+    left:30px;
+    top: 15px;
+}
+#sign-up a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+#sign-up {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+nav{
+    margin-top: 8px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-self: center;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 0;
+}
+
+nav ul .active a{
+    text-decoration: underline;
+    color: blue;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#hrhr{
+    margin-top: -20px;
+}
+main #mobile div img{
+    height: 150px;
+    border-radius: 7px;
+    border: 2px solid #f1f3f4;
+}
+.cycle{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #f1f3f4;
+    color: black;
+    font-size: xx-large;
+}
+@media (min-width:769px) {
+    header .bi-search{
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+    .bi-camera{
+        position: absolute;
+        right: 60px;
+        top: 15px;
+    }
+    .bi-mic{
+        position: absolute;
+        right: 90px;
+        top: 15px;
+    }
+    .bi-x-lg{
+        position: absolute;
+        right: 120px;
+        top: 20px;
+        border-right: 1px solid black;
+        padding-right: 10px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 30px;
+        overflow-x:auto;
+        padding: 0;
+    }
+    #tools :hover{
+        background-color: #f1f3f4;
+        border-radius: 50px;
+        padding: auto;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    #hrhr{
+        margin-top: -16px;
+    }
+
+    main .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: xx-large;
+    }
+    #btn{
+        background-color: #f1f3f4;
+        padding: 1px 9px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rounded-circle{
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+        background-color: #f1f3f4;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .more a{
+        background-color: #f1f3f4;
+        width: 40%;;
+        height: 20%px;
+        padding: 10px 90px;
+        color: black;
+        text-decoration: none;
+        border-radius: 50px;
+    }
+    .more{
+        position: absolute;
+        left: 30%;
+        bottom: 4px;
+        z-index: 50;
+
+    }
+    
+    aside h3{
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+    #image .d-flex img{
+        border: 1px solid black;
+    }
+    
+    aside p{
+        font-weight: lighter;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    aside p a{
+        text-decoration: none;
+        color: #66b6ff;
+    }
+    aside p a:hover{
+        text-decoration: underline;
+    }
+    aside #thought{
+        display: flex;
+        text-align: center;
+    }
+    aside #thought p a{
+        text-decoration: none;
+        color: black;
+    }
+    aside #thought img{
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    aside #thought p a:hover{
+        text-decoration: underline;
+    }
+}
